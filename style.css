@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(229, 193, 126);
+}
+
+h1{
+    background-color: whitesmoke;
+}
+
+canvas {
+    background-color: white;
+
+    border: 5px solid blue;
+    animation-name: borderlight;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+
+}
+
+
+@keyframes borderlight{
+
+    from{box-shadow: 2px 2px 30px rgb(234, 7, 7);}
+    to{box-shadow: 2px 2px 30px rgb(17, 149, 8);}
+
+}
